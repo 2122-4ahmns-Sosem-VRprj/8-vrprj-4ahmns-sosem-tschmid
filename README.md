@@ -55,6 +55,8 @@ Screenshots (concept and experience), Video
 | XR Interaction Toolkit | com.unity.xr.interaction.toolkit | 2.0.0-pre.7 |
 | XR Plugin Management | com.unity.xr.management | 4.0.7 |
 
+Rock 3d-Model: https://www.cgtrader.com/free-3d-models/plant/other/rock-06
+
 ### Limitations/Problems: 
 
 Copyright by Thomas Schmid
