@@ -25,6 +25,21 @@ Screenshots (concept and experience), Video
 
 <img width="927" alt="Screenshot 2022-06-19 at 23 07 56" src="https://user-images.githubusercontent.com/64731985/174500339-9fae6200-67fb-482c-b665-32733a887982.png">
 
+
+### Steps
+
+1. Whiteboxing MG1 and MG2
+2. Creation of first build exe/build apk user testing
+3. Research Animals in Unity
+4. Research Light in Unity
+5. Research Bunnies
+6. Trying out the bunny animation Trying out coloring objects with triggers Trying out Oculus
+7. Modeling Autumn Setting
+8. Modeling Pedestals
+9. Modeling Walls
+10. Sound recording Foley
+11. Sound recording Dialogue Speaker Sound recording Bunny
+
 ### Third party material: 
 
 | Package Name | Package ID | Version |
@@ -42,4 +57,4 @@ Screenshots (concept and experience), Video
 
 ### Limitations/Problems: 
 
-Copyright by smeerws :)
+Copyright by Thomas Schmid
