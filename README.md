@@ -1,71 +1,97 @@
-# Easter Conspiracy tschmid
+# 11-vrprj-4ahmns-sosem-ptaitl
 
-### Project description: 
-In this game you are thrown into a wonderfully cheerful maze. You can only get out of this maze by solving all the puzzles. You are guided to these puzzles by auditory and visual stimuli.
-The game offers a good mix of entertainment and story. You want to know what happens next and what will happen. A wonderful game!
+Dieses VR-Spiel ist im Rahmen des MTIN Unterrichts bei Frau Prof. Meerwald-Stadler, Dipl.-Ing. Susanne der HTL Salzburg entstanden. (Schuhljahr 2021/22)
 
-#### Minigame 1:
-In the first minigame, you will collect eggs, which are scattered across the first part of the mazes. With the collected eggs, you will then come to a pedestal, which has indentations in the shape of eggs, all of which have different colors. On top of this pedestal there are also paint buckets in which you dip the eggs to dye them. When the puzzle is solved, the wall, which is behind the pedestal, falls through the floor.
+## Aufgabenstellung
 
-#### Minigame 2:
-In the second minigame, the player finds the Easter bunny. This runs away from the player. While the bunny is running, golden eggs keep falling out of his pocket. The player should then catch the bunny, but the bunny escapes at the exit of the maze.
+Auf Basis eines vorab bereitgestellten Unity / XR-Interaction-Toolkit Boilerplate soll eine spielbare .apk eines Oster VR-Games erstellt werden. Inhaltlich soll der Spieler durch das Lösen zweier Minigames aus einem vordefinierten Labyrinth enkommen.
 
 
-### Development platform: 
-OS: OSX 12.2 , Game Engine: Unity 2020.3.18f1, Visual Studio 2019, XR Interaction Toolkit 1.0.0-pre.8, XR Plugin Management 4.2.1, Oculus XR Plugin 1.10.0.
+> **Note:** Aufgrund vieler ausgefallender Unterrichtseinheiten wurden die Anforderungen auf ein Minigame inkl. Onboarding und Verabschiedung beschränkt und das ursprüngliche Konzept entsprechend angepasst (siehe unterhalb).
 
-## Software/Hardware Requirements: 
-Oculus hardware requirements https://support.oculus.com/248749509016567/
-You need a VR headset in this case an Oculus Rift/Quest/Quest2
+## Konzept
+Vor dem Labyrinth wartet ein Hase. Kommt der Spieler in die Nähe des Hasen, erscheint über ihm eine Sprechblase mit Spielanweisungen. Um Buttoninputs zu vermeiden, indiziert ein UI-Slider wie lange die Sprechblase noch sichtbar ist.
 
-Examples: https://github.com/Unity-Technologies/XR-Interaction-Toolkit-Examples
+Der Hase hoppelt zum Rätsel. Jedes Mal, wenn er den Boden berührt, hört der Spieler einen dumpfen Schlag, der ihn akustisch durch das Labyrinth leiten soll. Außerdem gibt der Hase hasentypische Idle- Sounds von sich. So gelingt es dem Spieler dem Hasen bis zum Rätsel zu folgen, obwohl der Hase unter Umständen schneller ist und der Spieler ihn auf dem Weg zum Rätsel verliert.
 
-When downlaoded, you have compile time errors in the project. To solve them install the XR interaction toolkit package via the Package Manager. (!Enable in Advanced Settings Preview Packages).
+Sobald der Spieler das Labyrinth betritt, schließt sich der Eingang. Das Labyrinth kann dann nur mehr über den Ausgang verlassen werden. Beim Rätsel angekommen erscheint wieder eine Sprechblase über dem Hasen, in dem der Spieler aufgefordert wird ein mathematisches Rätsel zu lösen und das Ergebnis in ein Zahlenfeld einzugeben.
 
-### Target platform: 
-Oculus Rift/S; Quest/2
+Hat der Spieler das Ergebnis über das Zahlenfeld eingegeben wird dieses grün und es erscheint wieder eine Sprechblase über dem Hasen. Dem Spieler wird gesagt, er könne jetzt den Ausgang suchen, um aus dem Labyrinth zu entkommen. Der Hase hoppelt zum Ausgang.
 
-### Visuals: 
-
-Screenshots (concept and experience), Video
+Der Spieler folgt dem Hasen bis zum Ausgang. Die Tür geht auf und der Hase verabschiedet sich.
 
 
-<img width="927" alt="Screenshot 2022-06-19 at 23 07 56" src="https://user-images.githubusercontent.com/64731985/174500339-9fae6200-67fb-482c-b665-32733a887982.png">
+## Stil & Spielspaß
 
+Grundsätzlich soll das Spiel mithilfe eines Toonshaders (Tutorial von Erik Roystan), stilisierten Figuren und einem Natursetting eine helle und farbenfrohe Atmosphäre ausstrahlen. Für eine bessere Immersivität soll auch Wind, in Form von vorbeiwehenden Blättern und entsprechenden Soundeffekten sorgen. Der Spaßfaktor besteht also nicht nur daraus, seinen Kopf zu benutzten, um aus dem Labyrinth zu entkommen, sondern auch darin, die stilisierte Umgebung und interessante Klangkulisse auf sich wirken zu lassen.
 
-### Steps
+## Auditive Gestaltung
 
-1. Whiteboxing MG1 and MG2
-2. Creation of first build exe/build apk user testing
-3. Research Animals in Unity
-4. Research Light in Unity
-5. Research Bunnies
-6. Trying out the bunny animation Trying out coloring objects with triggers Trying out Oculus
-7. Modeling Autumn Setting
-8. Modeling Pedestals
-9. Modeling Walls
-10. Sound recording Foley
-11. Sound recording Dialogue Speaker Sound recording Bunny
+Um das Spiel noch immersiver zu machen, sollen 3D Sounds, sowie 2D Atmo Sounds eingebaut werden. Folgende AudioClips (teils aus dem Internet, teils selbst aufgenommen) sind im Projekt enthalten:
 
-### Third party material: 
+* Hase
+  * Idle Sound
+  * Hoppelsound, wenn er beim Springen den Biden berührt
+* Minigame
+  * Klick Sound, wenn beim ersten Rätsel ein Input getätigt wird
+  * Bestätigungssound, wenn das Ergebnis stimmt
+  * Fehlersound, wenn das Ergebnis nicht stimmt
+  * Schleifgeräusch, wenn sich das Eingangstor schließt bzw. das Ausgangstor öffnet
+* Atmo bzw. globaler Sound
+  * Vögelgeräusche
+  * Hintergrundmusik
 
-| Package Name | Package ID | Version |
-|:---|:---|:---|
-| JetBrains Rider Editor | com.unity.ide.rider | 2.0.7 |
-| Oculus XR Plugin | com.unity.xr.oculus | 1.10.0 |
-| Post Processing | com.unity.postprocessing | 3.1.1 |
-| Test Framework | com.unity.test-framework | 1.1.29 |
-| Timeline | com.unity.timeline | 1.4.8 |
-| Unity UI | com.unity.ugui | 1.0.0 |
-| Version Control | com.unity.collab-proxy | 1.9.0 |
-| Visual Studio Editor | com.unity.ide.visualstudio | 2.0.11 |
-| XR Interaction Toolkit | com.unity.xr.interaction.toolkit | 2.0.0-pre.7 |
-| XR Plugin Management | com.unity.xr.management | 4.0.7 |
+Alle Sounds sind im .wav Format mit 48 kHz und 16 bit. Abhängig davon, ob es sich um 3D oder 2D Sounds handelt, sind die AudioClips Mono oder Stereo
 
-Rock 3d-Model: https://www.cgtrader.com/free-3d-models/plant/other/rock-06
+## Arbeitsschritte
+1. Projekt aufsetzten
+2. Projekt builden und Fortbewegung, Scale, etc. am Headset ausprobieren
+3. Assets suchen
+4. Hase und Führung durchs Spiel einbauen
+5. Rechenrätsel einbauen
+6. Restlichen Spielfluss einbauen (Sprechblasen)
+7. Projekt final builden
 
-SFX supplied by Splice.
+## User Testing
 
-### Limitations/Problems: 
+Die oberhalb beschriebenen Arbeitsschritte sind iterativ zu verstehen: Es wurde immer wieder getestet und Bugs gefixed. Außerdem wurden User Tests während der Entwicklung durchgeführt, um sicherzustellen, dass die Spieler sich auskennen. Dabei wurde u.A. folgendes festgestellt:
 
-Copyright by Thomas Schmid
+- Zeitlich limitierte Sprechblasen brauchen einen Zeitindikator
+- Wenn das Zahlenrätsel nicht gelöst werden kann, muss ein Hinweis angezeigt werden
+
+## Limitations
+
+Das Spiel ist lediglich auf Oculus VR-Brillen spielbar.
+
+## Packages
+
+- JetBrains Rider Editor | com.unity.ide.rider | 2.0.7
+- Oculus XR Plugin | com.unity.xr.oculus | 1.10.0
+- Test Framework | com.unity.test-framework | 1.1.29
+- TextMeshPro | com.unity.textmeshpro | 3.0.6
+- Timeline | com.unity.timeline | 1.4.8
+- Unity UI | com.unity.ugui | 1.0.0
+- Version Control | com.unity.collab-proxy | 1.9.0
+- Visual Studio Code Editor | com.unity.ide.vscode | 1.2.3
+- Visual Studio Editor | com.unity.ide.visualstudio | 2.0.11
+- XR Interaction Toolkit | com.unity.xr.interaction.toolkit | 2.0.0-pre.7
+- XR Plugin Management | com.unity.xr.management | 4.0.7
+
+> **Note:** Alle verwendeten Packages sind dauerhaft kostenlos und im Repository inkludiert. Beim Clonen des Projekts müssen keine zusätzlichen Packages installiert werden.
+
+## Entwicklungsplattform
+
+MacOS 12.3.1 (21E258), Unity 2020.3.18f1, Visual Studio 2019, XR Interaction Toolkit 1.0.0-pre.8, XR Plugin Management 4.2.1, Oculus XR Plugin 1.10.0.
+
+## Assets
+
+Der Hase, die Bäume, sowie die vorbeifliegenden Vögel sind kostenlose Modelle von folgenden Seiten:
+
+- https://www.turbosquid.com
+- https://www.cgtrader.com/
+
+## Abschließende Anmerkung
+
+Da es sich um ein Schulprojekt handelt, sind alle Scripts sehr detalliert kommentiert, damit das Beurteilen der Arbeit leichter fällt und Zusammenhänger besser verständlich werden. Diese Kommentare sind also nicht als Code-Smells zu beurteilen.
+
+Copyright © 2022 by ptaitl
