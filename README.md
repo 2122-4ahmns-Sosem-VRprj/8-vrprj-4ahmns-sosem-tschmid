@@ -4,6 +4,13 @@
 In this game you are thrown into a wonderfully cheerful maze. You can only get out of this maze by solving all the puzzles. You are guided to these puzzles by auditory and visual stimuli.
 The game offers a good mix of entertainment and story. You want to know what happens next and what will happen. A wonderful game!
 
+#### Minigame 1:
+In the first minigame, you will collect eggs, which are scattered across the first part of the mazes. With the collected eggs, you will then come to a pedestal, which has indentations in the shape of eggs, all of which have different colors. On top of this pedestal there are also paint buckets in which you dip the eggs to dye them. When the puzzle is solved, the wall, which is behind the pedestal, falls through the floor.
+
+#### Minigame 2:
+In the second minigame, the player finds the Easter bunny. This runs away from the player. While the bunny is running, golden eggs keep falling out of his pocket. The player should then catch the bunny, but the bunny escapes at the exit of the maze.
+
+
 ### Development platform: 
 OS: OSX 12.2 , Game Engine: Unity 2020.3.18f1, Visual Studio 2019, XR Interaction Toolkit 1.0.0-pre.8, XR Plugin Management 4.2.1, Oculus XR Plugin 1.10.0.
 
