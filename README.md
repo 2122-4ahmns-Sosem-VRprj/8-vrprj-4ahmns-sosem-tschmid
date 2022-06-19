@@ -1,11 +1,11 @@
 # HTL-VRProject with XRInteractionToolkit !Template!
 
 ### Project description: 
-This project serves as sample project for spatial audio. 
-Explore sound in its basics in virtual reality (VR).
+In this game you are thrown into a wonderfully cheerful maze. You can only get out of this maze by solving all the puzzles. You are guided to these puzzles by auditory and visual stimuli.
+The game offers a good mix of entertainment and story. You want to know what happens next and what will happen. A wonderful game!
 
 ### Development platform: 
-OS: Windows 10, Game Engine: Unity 2020.3.18f1, Visual Studio 2019, XR Interaction Toolkit 1.0.0-pre.8, XR Plugin Management 4.2.1, Oculus XR Plugin 1.10.0.
+OS: OSX 12.2 , Game Engine: Unity 2020.3.18f1, Visual Studio 2019, XR Interaction Toolkit 1.0.0-pre.8, XR Plugin Management 4.2.1, Oculus XR Plugin 1.10.0.
 
 ## Software/Hardware Requirements: 
 Oculus hardware requirements https://support.oculus.com/248749509016567/
@@ -20,6 +20,7 @@ Oculus Rift/S; Quest/2
 
 ### Visuals: 
 Screenshots (concept and experience), Video
+
 
 ![SkizzeMaze](https://user-images.githubusercontent.com/28704310/159113247-e0cfe023-79fb-4ffd-b76f-342c55d93ef2.png)
 
