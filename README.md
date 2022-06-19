@@ -1,4 +1,4 @@
-# HTL-VRProject with XRInteractionToolkit !Template!
+# Easter Conspiracy tschmid
 
 ### Project description: 
 In this game you are thrown into a wonderfully cheerful maze. You can only get out of this maze by solving all the puzzles. You are guided to these puzzles by auditory and visual stimuli.
