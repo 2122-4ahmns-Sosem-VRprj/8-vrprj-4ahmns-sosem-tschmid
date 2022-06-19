@@ -25,7 +25,18 @@ Screenshots (concept and experience), Video
 
 ### Third party material: 
 
-For testing without a headset, use the XR Device Simulator (included in the xr interaction toolkit package):  https://www.youtube.com/watch?v=d4bTpkvBwrs
+| Package Name | Package ID | Version |
+|:---|:---|:---|
+| JetBrains Rider Editor | com.unity.ide.rider | 2.0.7 |
+| Oculus XR Plugin | com.unity.xr.oculus | 1.10.0 |
+| Post Processing | com.unity.postprocessing | 3.1.1 |
+| Test Framework | com.unity.test-framework | 1.1.29 |
+| Timeline | com.unity.timeline | 1.4.8 |
+| Unity UI | com.unity.ugui | 1.0.0 |
+| Version Control | com.unity.collab-proxy | 1.9.0 |
+| Visual Studio Editor | com.unity.ide.visualstudio | 2.0.11 |
+| XR Interaction Toolkit | com.unity.xr.interaction.toolkit | 2.0.0-pre.7 |
+| XR Plugin Management | com.unity.xr.management | 4.0.7 |
 
 ### Limitations/Problems: 
 
