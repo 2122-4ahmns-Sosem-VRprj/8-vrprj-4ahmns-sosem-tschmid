@@ -57,6 +57,8 @@ Screenshots (concept and experience), Video
 
 Rock 3d-Model: https://www.cgtrader.com/free-3d-models/plant/other/rock-06
 
+SFX supplied by Splice.
+
 ### Limitations/Problems: 
 
 Copyright by Thomas Schmid
