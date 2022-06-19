@@ -19,10 +19,11 @@ When downlaoded, you have compile time errors in the project. To solve them inst
 Oculus Rift/S; Quest/2
 
 ### Visuals: 
+
 Screenshots (concept and experience), Video
 
 
-![SkizzeMaze](https://user-images.githubusercontent.com/28704310/159113247-e0cfe023-79fb-4ffd-b76f-342c55d93ef2.png)
+<img width="927" alt="Screenshot 2022-06-19 at 23 07 56" src="https://user-images.githubusercontent.com/64731985/174500339-9fae6200-67fb-482c-b665-32733a887982.png">
 
 ### Third party material: 
 
